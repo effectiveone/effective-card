@@ -8,11 +8,6 @@ wordpress-block-editor-pluggin
 - REACT
 
 
-## Show your support
-
-
-Give a ⭐️ if you like this project!
-
 
 ## What is in this repository
 
@@ -40,3 +35,8 @@ To be able to use the plug-in, please follow the instructions
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+
+Give a ⭐️ if you like this project!
