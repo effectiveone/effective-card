@@ -15,11 +15,9 @@
 function create_block_effective_cards_init () {
 
 	$effectives = array(
-		// 'effective-page-builder/',
-		// 'effective-page-builder-counter/',
-		// 'effective-page-builder-cards/',
-		// 'effective-page-builder-card/',
+'effective-card-three',
 		'effective-card-one',
+		'effective-card-two',
 	);
 
 	foreach ( $effectives as $effective ) {

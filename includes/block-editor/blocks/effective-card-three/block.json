@@ -1,0 +1,38 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/effective-card-three",
+	"version": "0.1.0",
+	"title": "effective-card-three",
+	"category": "Effective Cards",
+	"icon": "testimonial",
+	"attributes":{
+		"background": {
+			"type": "string"
+		},
+		"titleColor": {
+			"type": "string"
+		},
+		"image": {
+			"type": "string"
+		},
+		"title": {
+			"type": "string"
+		},
+		"bgColor": {
+			"type": "string"},
+		"content": {
+			"type": "string"
+        },
+		"footer": {
+			"type": "string"
+		}
+	},
+	"description": "",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "create-block",
+	"editorScript": "file:../../../../build/effective-card-three.js",
+	"editorStyle": "file:../../../../build/effective-card-three.css",
+	"style": "file:../../../../build/style-effective-card-three.css"
+}
