@@ -1,6 +1,19 @@
 # effective-card
 wordpress-block-editor-pluggin
 
+# BUILT WITH
+- HTML
+- CSS
+- JAVASCRIPT
+- REACT
+
+
+## Show your support
+
+
+Give a ⭐️ if you like this project!
+
+
 ## What is in this repository
 
 The plugin contains three cards that work for the hover effect. Cards can be modified by changing appropriate criteria in block-editor (formerly gutenberg).
@@ -16,3 +29,14 @@ To be able to use the plug-in, please follow the instructions
 - You can only use pluggin in the gutenberg wizard. And on the subpages created in this creator.
 
 
+## Authors
+
+👤 **Konrad Gruca**
+
+- Linkedin: [Konrad Gruca](https://www.linkedin.com/in/konrad-tytus-gruca-051a89228/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
