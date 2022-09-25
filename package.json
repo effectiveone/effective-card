@@ -1,0 +1,28 @@
+{
+	"name": "eeffective-cards",
+	"version": "0.1.0",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "yarn wp-scripts build",
+		"format": "next format",
+		"lint:css": "next lint-style",
+		"lint:js": "next lint-js",
+		"packages-update": "next packages-update",
+		"plugin-zip": "next plugin-zip",
+		"start": "next start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^22.1.0",
+		"google-charts": "^2.0.0"
+	},
+	"dependencies": {
+		"@loadable/component": "^5.15.2",
+		"bootstrap": "^5.1.3",
+		"react-bootstrap": "^2.2.0",
+		"react-color": "^2.19.3",
+		"react-gutenberg": "^0.5.2",
+		"styled-components": "^5.3.3"
+	}
+}
