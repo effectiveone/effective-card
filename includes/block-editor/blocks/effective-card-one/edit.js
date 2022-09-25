@@ -1,8 +1,8 @@
 
 import { __ } from '@wordpress/i18n';
-import { useBlockProps, RichText } from '@wordpress/block-editor';
-import {InspectorControls, BlockControls, AlignmentToolbar} from "@wordpress/block-editor"
-import {TextControl, Flex, FlexBlock, FlexItem, Button, Icon, PanelBody, PanelRow, ColorPicker, FormFileUpload} from "@wordpress/components"
+import { useBlockProps } from '@wordpress/block-editor';
+import {InspectorControls} from "@wordpress/block-editor"
+import { PanelBody} from "@wordpress/components"
 import {ChromePicker} from "react-color"
 
 import './editor.scss';
@@ -82,8 +82,6 @@ const openFileDialog = ( event ) => { setAttributes( { image: event.currentTarge
   backgroundColor: titleColor}}
   ></div>
 </div>
-
-
 </div>
 
         );

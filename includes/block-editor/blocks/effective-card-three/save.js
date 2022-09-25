@@ -1,10 +1,11 @@
 import { __ } from '@wordpress/i18n';
 import { useBlockProps } from '@wordpress/block-editor';
+
 import './editor.scss';
 
 export default function save(props) {
 	const {
-		attributes: {background, titleColor,  content, title, bgColor },
+		attributes: { backgroundColorFront, backgroundColorBack, background, titleColor, content, title, bgColor },
 
 		className,
 	} = props;
@@ -12,14 +13,23 @@ export default function save(props) {
 	return (
 
 <div {...useBlockProps}>
-<a class="card1" href="#">
-    <h3 style={{color: titleColor}}>{title}</h3>
-    <p class="small" style={{color: bgColor}}>{content}</p>
-    <div class="go-corner" href="#" style={{backgroundColor: background}}>
-      <div class="go-arrow">
-      </div>
-    </div>
-  </a>
+<div class="webinar-grid">
+
+<a  class="link-block" style={{color: titleColor, backgroundColor: background}}>
+  <div class="jumbotron left-right-jumbotron-block">
+	<div class="webinar-image-container">
+	</div>
+	<h1 class="dundas-blue-text-long" style={{color: titleColor}}>
+{title}
+  </h1>
+
+	<div class="webinar-content-box">
+<p style={{color: bgColor}}> {content}</p>
+	</div>
+  </div>
+</a>
+
+</div>
 </div>
 	);
 }

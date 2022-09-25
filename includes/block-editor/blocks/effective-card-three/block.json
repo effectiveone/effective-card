@@ -6,6 +6,12 @@
 	"category": "Effective Cards",
 	"icon": "testimonial",
 	"attributes":{
+		"backgroundColorFront": {
+			"type": "string"
+		},
+		"backgroundColorBack": {
+			"type": "string"
+		},
 		"background": {
 			"type": "string"
 		},
